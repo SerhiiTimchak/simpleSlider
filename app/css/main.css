@@ -1,2 +1,19 @@
+html,
 body {
-  background: #596; }
+  margin: 0px; }
+
+#slider {
+  width: 640px;
+  margin: 0 auto; }
+  #slider .images {
+    height: 480px;
+    position: relative; }
+    #slider .images img {
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      transition: opacity 1s; }
+    #slider .images img.active {
+      opacity: 1; }
+  #slider .buttons {
+    text-align: center; }

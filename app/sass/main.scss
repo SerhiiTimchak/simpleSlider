@@ -1,4 +1,25 @@
-$bodyColor: #596;
+html,
 body {
-    background: $bodyColor;
+    margin: 0px;
+}
+
+#slider {
+    width: 640px;
+    margin: 0 auto;
+    .images {
+        height: 480px;
+        position: relative;
+        img {
+            width: 100%;
+            opacity: 0;
+            position: absolute;
+            transition: opacity 1s;
+        }
+        img.active {
+            opacity: 1;
+        }
+    }
+    .buttons {
+        text-align: center;
+    }
 }
