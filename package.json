@@ -1,0 +1,26 @@
+{
+  "name": "simpleslider",
+  "version": "1.0.0",
+  "description": "siple lider from youtube based on position absolute ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiTimchak/simpleSlider.git"
+  },
+  "author": "Serhii Tymchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiiTimchak/simpleSlider/issues"
+  },
+  "homepage": "https://github.com/SerhiiTimchak/simpleSlider#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.17.3"
+  }
+}
